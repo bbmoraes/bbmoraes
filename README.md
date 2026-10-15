@@ -7,7 +7,7 @@
 </picture>
 
 [![Projeto QA](https://img.shields.io/badge/projeto-QA_API_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-api-testing-postman)
-[![Portfólio](https://img.shields.io/badge/portf%C3%B3lio-online-10B981?style=flat-square&logo=githubpages&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
+[![Portfólio](https://img.shields.io/badge/portf%C3%B3lio-online-10B981?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
 ![Status](https://img.shields.io/badge/status-em_forma%C3%A7%C3%A3o-A78BFA?style=flat-square)
 
 </div>
@@ -32,19 +32,39 @@ Também sou formada em Direito, o que me deu o hábito de ler regras com atenç�
 ```javascript
 const bianca = {
   role: "QA & Data Analytics — em formação",
-  background: ["Social Media", "Operações Digitais", "Bacharel em Direito"],
+  background: [
+    "Social Media",
+    "Operações Digitais",
+    "Bacharel em Direito",
+  ],
 
-  // ferramentas que já usei em um projeto publicado
-  usedInProjects: ["Postman", "Collection Runner", "JavaScript (pm.test + Chai)", "APIs REST", "Markdown", "GitHub"],
+  // já usei em um projeto publicado
+  usedInProjects: [
+    "Postman + Collection Runner",
+    "JavaScript (pm.test + Chai)",
+    "APIs REST",
+    "Markdown",
+    "GitHub",
+  ],
 
-  // o que estou estudando agora
-  currentlyLearning: ["Fundamentos de testes", "Testes manuais", "Automação de testes de API"],
+  // estudando agora
+  currentlyLearning: [
+    "Fundamentos de testes",
+    "Testes manuais",
+    "Automação de testes de API",
+  ],
 
   // próximos passos da trilha de dados
   nextUp: ["SQL", "Power BI"],
 
-  strengths: ["atenção a detalhes", "organização de processos", "documentação", "leitura de métricas"],
-  lookingFor: "primeira oportunidade como QA Júnior ou Analista de Dados/BI Júnior",
+  strengths: [
+    "atenção a detalhes",
+    "organização de processos",
+    "documentação",
+    "leitura de métricas",
+  ],
+
+  lookingFor: "QA Júnior ou Analista de Dados/BI Júnior",
 };
 ```
 
@@ -102,7 +122,7 @@ flowchart LR
 ## `06` › ping bianca
 
 [![GitHub](https://img.shields.io/badge/GitHub-bbmoraes-24292F?style=flat-square&logo=github)](https://github.com/bbmoraes)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-QA_API_Testing-7C3AED?style=flat-square&logo=githubpages&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-QA_API_Testing-7C3AED?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
 
 Aberta a conversas sobre QA, dados e transição de carreira.
 
