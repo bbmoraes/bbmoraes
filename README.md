@@ -6,7 +6,9 @@
   <img alt="BIANCA.OS · Quality & Data Lab: terminal com o status testando, documentando e evoluindo" src="assets/header-light.svg" width="100%">
 </picture>
 
-[![Projeto QA](https://img.shields.io/badge/projeto-QA_API_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-api-testing-postman)
+[![Projeto 01](https://img.shields.io/badge/projeto_01-API_REST_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-api-testing-postman)
+[![Projeto 02](https://img.shields.io/badge/projeto_02-Authenticated_API_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-auth-api-testing)
+[![CI](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml)
 [![Portfólio](https://img.shields.io/badge/portf%C3%B3lio-online-10B981?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
 ![Status](https://img.shields.io/badge/status-em_forma%C3%A7%C3%A3o-A78BFA?style=flat-square)
 
@@ -25,7 +27,7 @@ Na rotina de operação, eu já faço tarefas que conversam diretamente com QA e
 | Acompanho demandas, prazos e gargalos | **Rastrear problemas** até a resolução |
 | Monto relatórios de performance com métricas | **Ler dados** e transformar números em recomendações |
 
-Também sou formada em Direito, o que me deu o hábito de ler regras com atenção e argumentar com base em evidências. Hoje estudo testes de software e já publiquei meu primeiro projeto prático de testes de API.
+Também sou formada em Direito, o que me deu o hábito de ler regras com atenção e argumentar com base em evidências. Hoje estudo testes de software e já publiquei **dois projetos práticos de testes de API**. O segundo roda sozinho no GitHub Actions a cada atualização.
 
 ## `02` › cat profile.js
 
@@ -38,11 +40,15 @@ const bianca = {
     "Bacharel em Direito",
   ],
 
-  // já usei em um projeto publicado
+  // já usei em projetos publicados (com evidências)
   usedInProjects: [
     "Postman + Collection Runner",
+    "Postman CLI",
     "JavaScript (pm.test + Chai)",
-    "APIs REST",
+    "APIs REST com autenticação por token",
+    "JSON Schema",
+    "Data-Driven Testing",
+    "GitHub Actions (CI)",
     "Markdown",
     "GitHub",
   ],
@@ -52,6 +58,7 @@ const bianca = {
     "Fundamentos de testes",
     "Testes manuais",
     "Automação de testes de API",
+    "Git pela linha de comando",
   ],
 
   // próximos passos da trilha de dados
@@ -76,9 +83,14 @@ const bianca = {
 ![JavaScript](https://img.shields.io/badge/JavaScript_(testes)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![REST API](https://img.shields.io/badge/API_REST-6D28D9?style=for-the-badge&logo=json&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-24292F?style=for-the-badge&logo=markdown&logoColor=white)
+![Postman CLI](https://img.shields.io/badge/Postman_CLI-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-24292F?style=for-the-badge&logo=json&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white)
 
-**🧪 QA & Testing**: testes funcionais (positivos, negativos, de limite e de integração) · casos de teste · bug reports · evidências de execução
+**🧪 QA & Testing**: testes funcionais (positivos, negativos, de limite e de integração) · autenticação por token · CRUD · Data-Driven Testing · validação de contrato com JSON Schema · casos de teste · bug reports · evidências de execução
+
+**⚙️ Automação**: execução da collection com Postman CLI no GitHub Actions, separando etapas obrigatórias das informativas
 
 **📊 Data & Analytics**: planilhas e análise de métricas de redes sociais (experiência profissional)
 
@@ -91,9 +103,9 @@ const bianca = {
 
 ## `04` › ./projects --featured
 
-### 🧪 [QA · API Testing with Postman](https://github.com/bbmoraes/qa-api-testing-postman)
+### 01 · 🧪 [API REST Testing](https://github.com/bbmoraes/qa-api-testing-postman)
 
-Projeto de estudos com testes funcionais de uma API REST pública (JSONPlaceholder), **executados de verdade** no Postman e documentados como em um time de QA.
+Meu primeiro portfólio no Postman: testes funcionais de uma API REST pública (JSONPlaceholder), **executados de verdade** e documentados como em um time de QA.
 
 | | |
 |---|---|
@@ -102,15 +114,27 @@ Projeto de estudos com testes funcionais de uma API REST pública (JSONPlacehold
 | **Tecnologias** | Postman · JavaScript (`pm.test`/Chai) · API REST · CSV/XLSX · Markdown |
 | **Links** | [Repositório](https://github.com/bbmoraes/qa-api-testing-postman) · [Portfólio visual](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/) · [Bug reports](https://github.com/bbmoraes/qa-api-testing-postman/tree/main/bug-reports) |
 
-### 📊 Projeto de Dados/BI · *em planejamento*
+### 02 · 🔐 [Authenticated API Testing | Postman & GitHub Actions](https://github.com/bbmoraes/qa-auth-api-testing)
 
-> Espaço reservado para o meu primeiro dashboard de dados (SQL + Power BI). Ainda não foi iniciado. Ele só vai aparecer aqui quando estiver publicado, com dados e fonte verificáveis.
+Segundo projeto, na API Restful-Booker, com **autenticação por token, ciclo CRUD completo, dados de teste e execução automática**.
+
+| | |
+|---|---|
+| **Funcionalidades comprovadas** | Authenticated API Testing · CRUD Operations · Data-Driven Testing · JSON Schema Validation · Automated Assertions · CI with GitHub Actions |
+| **O que fiz** | 28 requisições em 8 pastas, 4 JSON Schemas escritos a partir da documentação, 9 cenários Data-Driven em JSON e um workflow que roda a collection com o Postman CLI a cada push |
+| **Resultado** | 27 de 34 casos aprovados · **5 defeitos documentados** (datas e preços gravados errado, 500 em erro de cliente) · regressão obrigatória verde em 3 execuções no Actions |
+| **Tecnologias** | Postman · Postman CLI · GitHub Actions · JavaScript · JSON Schema |
+| **Links** | [Repositório](https://github.com/bbmoraes/qa-auth-api-testing) · [Execuções no Actions](https://github.com/bbmoraes/qa-auth-api-testing/actions) · [Bug reports](https://github.com/bbmoraes/qa-auth-api-testing/tree/main/bug-reports) |
+
+### 03 · 📊 Data Analytics & BI · *ainda não iniciado*
+
+> Espaço reservado para o meu primeiro dashboard de dados (SQL + Power BI). Ele só vai aparecer aqui quando estiver publicado, com dados e fonte verificáveis.
 
 ## `05` › git log --journey
 
 ```mermaid
 flowchart LR
-  A[Fundamentos<br/>estudando]:::wip --> B[Testes manuais<br/>estudando]:::wip --> C[API Testing<br/>1º projeto publicado]:::done --> D[Automação<br/>primeiros scripts]:::wip --> E[Projetos<br/>portfólio]:::wip --> F[Especialização<br/>próximo]:::next
+  A[Fundamentos<br/>estudando]:::wip --> B[Testes manuais<br/>estudando]:::wip --> C[API Testing<br/>2 projetos publicados]:::done --> D[Automação<br/>CI com GitHub Actions]:::done --> E[Projetos<br/>portfólio em construção]:::wip --> F[Especialização<br/>próximo]:::next
   G[Planilhas e métricas<br/>experiência profissional]:::done --> H[SQL<br/>próximo]:::next --> I[Power BI<br/>próximo]:::next --> J[Dashboard<br/>projeto futuro]:::next
   classDef done fill:#7C3AED,stroke:#7C3AED,color:#ffffff
   classDef wip fill:#EDE9FE,stroke:#7C3AED,color:#2E1065
@@ -123,6 +147,7 @@ flowchart LR
 
 [![GitHub](https://img.shields.io/badge/GitHub-bbmoraes-24292F?style=flat-square&logo=github)](https://github.com/bbmoraes)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-QA_API_Testing-7C3AED?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
+[![Projeto 02](https://img.shields.io/badge/Projeto_02-Authenticated_API_Testing-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/bbmoraes/qa-auth-api-testing)
 
 Aberta a conversas sobre QA, dados e transição de carreira.
 
