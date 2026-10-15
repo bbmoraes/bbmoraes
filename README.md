@@ -8,10 +8,7 @@
 
 **QA Júnior em formação** · testes de API com Postman, JavaScript e GitHub Actions · vindo de Operações Digitais
 
-<sub>🇺🇸 Junior QA in training. Two public API testing projects with automated assertions, documented bugs and CI runs on GitHub Actions. Interested in Data/BI as a second track.</sub>
-
-[![CI · Projeto 01](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml)
-[![CI · Projeto 02](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml)
+<sub><b>EN</b> · Junior QA in training. Two public API testing projects with automated assertions, documented bugs and CI runs on GitHub Actions. Interested in Data/BI as a second track.</sub>
 
 </div>
 
@@ -19,8 +16,8 @@
 
 | | Projeto | O que mostra | Resultado verificável |
 |---|---|---|---|
-| **01** | 🧪 [**API REST Testing**](https://github.com/bbmoraes/qa-api-testing-postman)<br><sub>JSONPlaceholder · Postman</sub> | Testes positivos, negativos, de limite e de integração · 72 verificações em JavaScript · casos de teste e bug reports | 19/21 casos aprovados · **2 defeitos reais** (500 com stack trace) · [portfólio visual](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/) |
-| **02** | 🔐 [**Authenticated API Testing**](https://github.com/bbmoraes/qa-auth-api-testing)<br><sub>Restful-Booker · Postman CLI · GitHub Actions</sub> | Autenticação por token · CRUD completo · Data-Driven Testing · JSON Schema · CI com etapas obrigatórias e informativas | 27/34 casos aprovados · **5 defeitos documentados** · [execuções no Actions](https://github.com/bbmoraes/qa-auth-api-testing/actions) |
+| **01** | 🧪 [**API REST Testing**](https://github.com/bbmoraes/qa-api-testing-postman)<br><sub>JSONPlaceholder · Postman</sub> | Testes positivos, negativos, de limite e de integração · 72 verificações em JavaScript · casos de teste e bug reports · CI com GitHub Actions | 19/21 casos aprovados · **2 defeitos reais** (500 com stack trace) · [portfólio visual](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)<br>[![CI](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml) |
+| **02** | 🔐 [**Authenticated API Testing**](https://github.com/bbmoraes/qa-auth-api-testing)<br><sub>Restful-Booker · Postman CLI · GitHub Actions</sub> | Autenticação por token · CRUD completo · Data-Driven Testing · JSON Schema · CI com etapas obrigatórias e informativas | 27/34 casos aprovados · **5 defeitos documentados** · [execuções no Actions](https://github.com/bbmoraes/qa-auth-api-testing/actions)<br>[![CI](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml) |
 | **03** | 📝 Testes manuais · *planejado* | Casos de teste, checklist e bug reports de uma aplicação web | Ainda não iniciado |
 | **04** | 📊 Data Analytics & BI · *planejado* | Dashboard com SQL e Power BI | Ainda não iniciado |
 
