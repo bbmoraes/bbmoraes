@@ -6,129 +6,66 @@
   <img alt="BIANCA.OS · Quality & Data Lab: terminal com o status testando, documentando e evoluindo" src="assets/header-light.svg" width="100%">
 </picture>
 
-[![Projeto 01](https://img.shields.io/badge/projeto_01-API_REST_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-api-testing-postman)
-[![Projeto 02](https://img.shields.io/badge/projeto_02-Authenticated_API_Testing-7C3AED?style=flat-square&logo=postman&logoColor=white)](https://github.com/bbmoraes/qa-auth-api-testing)
-[![CI](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml)
-[![Portfólio](https://img.shields.io/badge/portf%C3%B3lio-online-10B981?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
-![Status](https://img.shields.io/badge/status-em_forma%C3%A7%C3%A3o-A78BFA?style=flat-square)
+**QA Júnior em formação** · testes de API com Postman, JavaScript e GitHub Actions · vindo de Operações Digitais
+
+<sub>🇺🇸 Junior QA in training. Two public API testing projects with automated assertions, documented bugs and CI runs on GitHub Actions. Interested in Data/BI as a second track.</sub>
+
+[![CI · Projeto 01](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-api-testing-postman/actions/workflows/api-tests.yml)
+[![CI · Projeto 02](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/bbmoraes/qa-auth-api-testing/actions/workflows/api-tests.yml)
 
 </div>
 
-## `01` › whoami
+## `01` › ./projects --featured
 
-Sou a **Bianca**. Trabalho com **Social Media e Operações Digitais** e estou migrando para tecnologia, com foco em **Quality Assurance** e **Análise de Dados/BI**.
+| | Projeto | O que mostra | Resultado verificável |
+|---|---|---|---|
+| **01** | 🧪 [**API REST Testing**](https://github.com/bbmoraes/qa-api-testing-postman)<br><sub>JSONPlaceholder · Postman</sub> | Testes positivos, negativos, de limite e de integração · 72 verificações em JavaScript · casos de teste e bug reports | 19/21 casos aprovados · **2 defeitos reais** (500 com stack trace) · [portfólio visual](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/) |
+| **02** | 🔐 [**Authenticated API Testing**](https://github.com/bbmoraes/qa-auth-api-testing)<br><sub>Restful-Booker · Postman CLI · GitHub Actions</sub> | Autenticação por token · CRUD completo · Data-Driven Testing · JSON Schema · CI com etapas obrigatórias e informativas | 27/34 casos aprovados · **5 defeitos documentados** · [execuções no Actions](https://github.com/bbmoraes/qa-auth-api-testing/actions) |
+| **03** | 📝 Testes manuais · *planejado* | Casos de teste, checklist e bug reports de uma aplicação web | Ainda não iniciado |
+| **04** | 📊 Data Analytics & BI · *planejado* | Dashboard com SQL e Power BI | Ainda não iniciado |
 
-Na rotina de operação, eu já faço tarefas que conversam diretamente com QA e Dados:
+**Para verificar em 1 minuto:** abra a aba **Actions** de cada projeto para ver as execuções reais, ou os bug reports ([01](https://github.com/bbmoraes/qa-api-testing-postman/tree/main/bug-reports) · [02](https://github.com/bbmoraes/qa-auth-api-testing/tree/main/bug-reports)).
 
-| No meu trabalho atual | Como isso se conecta à tecnologia |
+## `02` › whoami
+
+Sou a **Bianca**. Trabalho com **Social Media e Operações Digitais** e estou migrando para **Quality Assurance**, com Análise de Dados/BI como segunda trilha. Busco minha primeira vaga como **QA Júnior**, de preferência remota.
+
+| No meu trabalho atual | O que isso vira em QA |
 |---|---|
 | Abro briefings e defino o que precisa ser entregue | Ler requisitos e transformar em **critérios de aceite** |
-| Reviso peças antes da publicação | **Verificar uma entrega antes de liberar**, a mesma lógica de um teste |
-| Acompanho demandas, prazos e gargalos | **Rastrear problemas** até a resolução |
-| Monto relatórios de performance com métricas | **Ler dados** e transformar números em recomendações |
+| Reviso peças antes da publicação | **Verificar uma entrega antes de liberar** |
+| Acompanho demandas, prazos e gargalos | **Rastrear um problema** até a resolução |
+| Monto relatórios de performance | **Ler dados** e transformar números em recomendações |
 
-Também sou formada em Direito, o que me deu o hábito de ler regras com atenção e argumentar com base em evidências. Hoje estudo testes de software e já publiquei **dois projetos práticos de testes de API**. O segundo roda sozinho no GitHub Actions a cada atualização.
-
-## `02` › cat profile.js
-
-```javascript
-const bianca = {
-  role: "QA & Data Analytics — em formação",
-  background: [
-    "Social Media",
-    "Operações Digitais",
-    "Bacharel em Direito",
-  ],
-
-  // já usei em projetos publicados (com evidências)
-  usedInProjects: [
-    "Postman + Collection Runner",
-    "Postman CLI",
-    "JavaScript (pm.test + Chai)",
-    "APIs REST com autenticação por token",
-    "JSON Schema",
-    "Data-Driven Testing",
-    "GitHub Actions (CI)",
-    "Markdown",
-    "GitHub",
-  ],
-
-  // estudando agora
-  currentlyLearning: [
-    "Fundamentos de testes",
-    "Testes manuais",
-    "Automação de testes de API",
-    "Git pela linha de comando",
-  ],
-
-  // próximos passos da trilha de dados
-  nextUp: ["SQL", "Power BI"],
-
-  strengths: [
-    "atenção a detalhes",
-    "organização de processos",
-    "documentação",
-    "leitura de métricas",
-  ],
-
-  lookingFor: "QA Júnior ou Analista de Dados/BI Júnior",
-};
-```
+Sou formada em Direito, o que me deu o hábito de ler regras com atenção e argumentar com base em evidências. Nos meus projetos, isso aparece na forma de separar **defeito**, **limitação documentada** e **comportamento indefinido** antes de abrir um bug.
 
 ## `03` › ls ./stack
 
-**✅ Já usei em projeto publicado**
+**✅ Usei em projetos publicados, com evidências**
 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript_(testes)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![REST API](https://img.shields.io/badge/API_REST-6D28D9?style=for-the-badge&logo=json&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-24292F?style=for-the-badge&logo=markdown&logoColor=white)
 ![Postman CLI](https://img.shields.io/badge/Postman_CLI-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript_(testes)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![JSON Schema](https://img.shields.io/badge/JSON_Schema-24292F?style=for-the-badge&logo=json&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white)
 
-**🧪 QA & Testing**: testes funcionais (positivos, negativos, de limite e de integração) · autenticação por token · CRUD · Data-Driven Testing · validação de contrato com JSON Schema · casos de teste · bug reports · evidências de execução
+**🧪 QA:** testes funcionais de API (positivos, negativos, de limite e de integração) · autenticação por token · CRUD · Data-Driven Testing · validação de contrato · casos de teste · bug reports com severidade e prioridade
 
-**⚙️ Automação**: execução da collection com Postman CLI no GitHub Actions, separando etapas obrigatórias das informativas
+**📊 Dados:** planilhas e análise de métricas de redes sociais (experiência profissional)
 
-**📊 Data & Analytics**: planilhas e análise de métricas de redes sociais (experiência profissional)
+**📚 Estudando agora:** fundamentos de testes · testes manuais · Git pela linha de comando · SQL · Power BI
 
-**📚 Em estudo / próximos passos**
+## `04` › cat profile.js
 
-![SQL](https://img.shields.io/badge/SQL-pr%C3%B3ximo_passo-8B5CF6?style=flat-square&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-pr%C3%B3ximo_passo-8B5CF6?style=flat-square&logo=powerbi&logoColor=white)
-![Git](https://img.shields.io/badge/Git_(CLI)-estudando-8B5CF6?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-estudando-8B5CF6?style=flat-square&logo=visualstudiocode&logoColor=white)
-
-## `04` › ./projects --featured
-
-### 01 · 🧪 [API REST Testing](https://github.com/bbmoraes/qa-api-testing-postman)
-
-Meu primeiro portfólio no Postman: testes funcionais de uma API REST pública (JSONPlaceholder), **executados de verdade** e documentados como em um time de QA.
-
-| | |
-|---|---|
-| **O que fiz** | Planejei 21 casos de teste, automatizei 72 verificações em JavaScript, executei a collection no Collection Runner, investiguei as falhas e documentei bugs e evidências |
-| **Resultado** | 19 de 21 casos aprovados · **2 defeitos reais encontrados** (respostas 500 com stack trace onde o esperado era 4xx) |
-| **Tecnologias** | Postman · JavaScript (`pm.test`/Chai) · API REST · CSV/XLSX · Markdown |
-| **Links** | [Repositório](https://github.com/bbmoraes/qa-api-testing-postman) · [Portfólio visual](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/) · [Bug reports](https://github.com/bbmoraes/qa-api-testing-postman/tree/main/bug-reports) |
-
-### 02 · 🔐 [Authenticated API Testing | Postman & GitHub Actions](https://github.com/bbmoraes/qa-auth-api-testing)
-
-Segundo projeto, na API Restful-Booker, com **autenticação por token, ciclo CRUD completo, dados de teste e execução automática**.
-
-| | |
-|---|---|
-| **Funcionalidades comprovadas** | Authenticated API Testing · CRUD Operations · Data-Driven Testing · JSON Schema Validation · Automated Assertions · CI with GitHub Actions |
-| **O que fiz** | 28 requisições em 8 pastas, 4 JSON Schemas escritos a partir da documentação, 9 cenários Data-Driven em JSON e um workflow que roda a collection com o Postman CLI a cada push |
-| **Resultado** | 27 de 34 casos aprovados · **5 defeitos documentados** (datas e preços gravados errado, 500 em erro de cliente) · regressão obrigatória verde em 3 execuções no Actions |
-| **Tecnologias** | Postman · Postman CLI · GitHub Actions · JavaScript · JSON Schema |
-| **Links** | [Repositório](https://github.com/bbmoraes/qa-auth-api-testing) · [Execuções no Actions](https://github.com/bbmoraes/qa-auth-api-testing/actions) · [Bug reports](https://github.com/bbmoraes/qa-auth-api-testing/tree/main/bug-reports) |
-
-### 03 · 📊 Data Analytics & BI · *ainda não iniciado*
-
-> Espaço reservado para o meu primeiro dashboard de dados (SQL + Power BI). Ele só vai aparecer aqui quando estiver publicado, com dados e fonte verificáveis.
+```javascript
+const bianca = {
+  role: "QA Júnior em formação",
+  background: ["Operações Digitais", "Social Media", "Bacharel em Direito"],
+  provenInProjects: ["Postman", "Postman CLI", "JavaScript (pm.test)", "JSON Schema", "GitHub Actions"],
+  learning: ["testes manuais", "Git (CLI)", "SQL", "Power BI"],
+  lookingFor: "primeira vaga como QA Júnior (remota)",
+};
+```
 
 ## `05` › git log --journey
 
@@ -141,13 +78,13 @@ flowchart LR
   classDef next fill:#ffffff,stroke:#A78BFA,color:#4C1D95,stroke-dasharray:4 3
 ```
 
-<sub>Roxo cheio: etapa com entrega publicada ou experiência real · lilás: em estudo · tracejado: próximos passos. Sem percentuais: o que está aqui é o que dá para comprovar.</sub>
+<sub>Roxo cheio: entrega publicada ou experiência real · lilás: em estudo · tracejado: próximos passos. Sem percentuais: só entra aqui o que dá para comprovar.</sub>
 
 ## `06` › ping bianca
 
-[![GitHub](https://img.shields.io/badge/GitHub-bbmoraes-24292F?style=flat-square&logo=github)](https://github.com/bbmoraes)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-QA_API_Testing-7C3AED?style=flat-square&logo=github&logoColor=white)](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
-[![Projeto 02](https://img.shields.io/badge/Projeto_02-Authenticated_API_Testing-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/bbmoraes/qa-auth-api-testing)
+- **GitHub:** [@bbmoraes](https://github.com/bbmoraes)
+- **Portfólio visual:** [bbmoraes.github.io/qa-api-testing-postman/portfolio](https://bbmoraes.github.io/qa-api-testing-postman/portfolio/)
+- **E-mail:** disponível na barra lateral deste perfil
 
 Aberta a conversas sobre QA, dados e transição de carreira.
 
