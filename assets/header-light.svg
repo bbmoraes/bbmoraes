@@ -3,11 +3,11 @@
 <desc id="d">Terminal de boas-vindas: Bianca, QA e Análise de Dados em formação. Status: testando, documentando, evoluindo.</desc>
 <style>
 text{font-family:"JetBrains Mono","SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;fill:#1C1330}
-.l{font-size:14px;opacity:0;animation:in .4s ease forwards}
+.l{font-size:14px}
 .cur{animation:blink 1s steps(1) infinite}
-@keyframes in{to{opacity:1}}
+
 @keyframes blink{50%{opacity:0}}
-@media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1}.cur{animation:none}}
+@media (prefers-reduced-motion:reduce){.cur{animation:none}}
 </style>
 <rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="#FFFFFF" stroke="#E4DAF5"/>
 <rect x="0.5" y="0.5" width="879" height="34" rx="14" fill="#FAF7FF"/>
@@ -18,7 +18,7 @@ text{font-family:"JetBrains Mono","SFMono-Regular",Menlo,Consolas,"Liberation Mo
 <text x="44" y="88" style="font-size:38px;font-weight:700;letter-spacing:2px;fill:#6D28D9">BIANCA<tspan fill="#047857">.</tspan>OS</text>
 <text x="292" y="88" style="font-size:16px;fill:#6B5E85">// Quality &amp; Data Lab</text>
 <text x="44" y="114" style="font-size:12px;fill:#6B5E85">QA Júnior em formação · Análise de Dados &amp; BI em formação · Brasil</text>
-<text x="44" y="150" class="l" style="animation-delay:0.25s"><tspan fill="#047857">bianca@quality-lab</tspan><tspan fill="#6B5E85">:~$</tspan> boot bianca.os --mode=learning</text><text x="44" y="174" class="l" style="animation-delay:0.60s"><tspan fill="#047857">[ ok ]</tspan> atenção a detalhes ........ <tspan fill="#6B5E85">herdada das operações digitais</tspan></text><text x="44" y="198" class="l" style="animation-delay:0.95s"><tspan fill="#047857">[ ok ]</tspan> leitura de métricas ....... <tspan fill="#6B5E85">relatórios de performance</tspan></text><text x="44" y="222" class="l" style="animation-delay:1.30s"><tspan fill="#047857">[ ok ]</tspan> api testing ............... <tspan fill="#6B5E85">1 projeto publicado · 72 asserts</tspan></text><text x="44" y="246" class="l" style="animation-delay:1.65s"><tspan fill="#B45309">[ .. ]</tspan> qa &amp; data analytics ..... <tspan fill="#6B5E85">em formação</tspan></text><text x="44" y="270" class="l" style="animation-delay:2.00s"><tspan fill="#6D28D9">STATUS</tspan> ▸ testando · documentando · evoluindo<tspan fill="#6D28D9" class="cur">▌</tspan></text>
+<text x="44" y="150" class="l"><tspan fill="#047857">bianca@quality-lab</tspan><tspan fill="#6B5E85">:~$</tspan> boot bianca.os --mode=learning</text><text x="44" y="174" class="l"><tspan fill="#047857">[ ok ]</tspan> atenção a detalhes ........ <tspan fill="#6B5E85">herdada das operações digitais</tspan></text><text x="44" y="198" class="l"><tspan fill="#047857">[ ok ]</tspan> leitura de métricas ....... <tspan fill="#6B5E85">relatórios de performance</tspan></text><text x="44" y="222" class="l"><tspan fill="#047857">[ ok ]</tspan> api testing ............... <tspan fill="#6B5E85">1 projeto publicado · 72 asserts</tspan></text><text x="44" y="246" class="l"><tspan fill="#B45309">[ .. ]</tspan> qa &amp; data analytics ..... <tspan fill="#6B5E85">em formação</tspan></text><text x="44" y="270" class="l"><tspan fill="#6D28D9">STATUS</tspan> ▸ testando · documentando · evoluindo<tspan fill="#6D28D9" class="cur">▌</tspan></text>
 <g transform="translate(700 70)">
 <rect width="136" height="58" rx="10" fill="#FAF7FF" stroke="#E4DAF5"/>
 <text x="14" y="23" style="font-size:10px;fill:#6B5E85">LAST RUN · 15/10/26</text>
